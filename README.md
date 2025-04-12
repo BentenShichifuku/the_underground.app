@@ -17,6 +17,6 @@ pip install pygame
 python main.py
 
 👥 ペアプログラミングメンバー
-@BentenShichifuku
-
+静岡大学 情報学部 行動情報学科 狩野研究室
+@BentenShichifuku #吉田勇翔
 @友人のGitHub名
