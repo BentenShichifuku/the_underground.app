@@ -17,6 +17,6 @@ pip install pygame
 python main.py
 
 👥 ペアプログラミングメンバー
-@あなたのGitHub名
+@BentenShichifuku
 
 @友人のGitHub名
