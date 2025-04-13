@@ -7,7 +7,7 @@ git config --global user.email "メールアドレス"	GitHub用のメールア�
 
 🟨 【普段の作業】コードを追加・更新・同期する
 コマンド	説明
-git status	今の変更状況を確認
+git status	今の変更状況を確認git
 git add .	全部の変更をステージに追加
 git commit -m "コミットメッセージ"	変更をコミット（記録）する
 git push origin ブランチ名	GitHubへプッシュ（アップロード）
