@@ -19,4 +19,4 @@ python main.py
 👥 ペアプログラミングメンバー
 静岡大学 情報学部
 @BentenShichifuku #吉田勇翔
-@友人のGitHub名
+@iggy157 #原田悠矢
