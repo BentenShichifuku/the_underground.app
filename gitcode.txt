@@ -1,0 +1,30 @@
+🟦 【初期設定系】GitHubと連携するための準備
+コマンド	説明
+git init	カレントディレクトリをGit管理下にする（最初に1回）
+git remote add origin https://github.com/ユーザー名/リポジトリ名.git	リモートリポジトリを追加（GitHubと接続）
+git config --global user.name "あなたのGitHubユーザー名"	GitHub用のユーザー名設定
+git config --global user.email "メールアドレス"	GitHub用のメールアドレス設定
+
+🟨 【普段の作業】コードを追加・更新・同期する
+コマンド	説明
+git status	今の変更状況を確認
+git add .	全部の変更をステージに追加
+git commit -m "コミットメッセージ"	変更をコミット（記録）する
+git push origin ブランチ名	GitHubへプッシュ（アップロード）
+git pull origin ブランチ名	GitHubから最新の変更を取り込む（プル）
+
+🟩 【ブランチ関連】機能ごとの作業を分ける
+コマンド	説明
+git branch	ブランチ一覧を表示
+git checkout -b 新ブランチ名	新しいブランチを作成＆移動
+git checkout ブランチ名	既存のブランチに移動
+git merge ブランチ名	他のブランチを現在のブランチに統合する
+git push -u origin 新ブランチ名	新ブランチをGitHubに初めてプッシュする
+
+🟥 【トラブル対応】エラー時・特殊操作
+コマンド	説明
+git remote -v	接続してるGitHubリポジトリのURLを確認
+git log --oneline	コミット履歴を簡単に表示
+git stash	作業中の変更を一時退避
+git restore ファイル名	変更を元に戻す（未コミット）
+git reset --hard HEAD	最後のコミットに完全に戻す（注意！）
